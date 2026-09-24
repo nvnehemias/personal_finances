@@ -15,7 +15,7 @@ sheet_name = os.getenv("sheet_name")
 
 
 # Exporting google sheet
-export_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet=Spending%20Tracker%20Data"
+export_url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
 
 
 
