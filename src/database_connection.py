@@ -1,7 +1,5 @@
 import os
 import psycopg
-from pathlib import Path
-import logging
 from dotenv import load_dotenv
 
 def get_connection():
