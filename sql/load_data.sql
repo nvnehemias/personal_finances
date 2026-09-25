@@ -1,4 +1,4 @@
-insert into orders (
+insert into finances (
 
     id
     , source
